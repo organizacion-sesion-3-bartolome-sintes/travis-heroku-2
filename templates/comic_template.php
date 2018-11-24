@@ -20,7 +20,7 @@
                             {"name" : "name", "value" : "{{ item.name }}", "prompt" : "Nombre del tebeo"},
                             {"name" : "description", "value" : "{{ item.description }}", "prompt" : "Descripción del tebeo"},
                             {"name" : "writer", "value" : "{{ item.writer }}", "prompt" : "Guionista del tebeo"},
-                            {"name" : "artist", "value" : "{{ item.artist }}", "prompt" : "Dibujante del tebeo"},
+                            {"name" : "painter", "value" : "{{ item.painter }}", "prompt" : "Dibujante del tebeo"},
                             {"name" : "datePublished", "value" : "{{ item.datePublished }}", "prompt" : "Fecha de publicación"}
                         ]
                         } 
@@ -32,7 +32,7 @@
                 {"name" : "name", "value" : "", "prompt" : "Nombre del tebeo"},
                 {"name" : "description", "value" : "", "prompt" : "Descripción del tebeo"},
                 {"name" : "writer", "value" : "", "prompt" : "Guionista del tebeo"},
-                {"name" : "artist", "value" : "", "prompt" : "Dibujante del tebeo"},
+                {"name" : "painter", "value" : "", "prompt" : "Dibujante del tebeo"},
                 {"name" : "datePublished", "value" : "", "prompt" : "Fecha de publicación"}        
             ]
                 }

@@ -64,11 +64,11 @@ $app->post('/comics', function ($req, $res, $args)  {
         case "description":
             $description = $datos[$i]['value'];
             break;
-        case "director":
-            $director = $datos[$i]['value'];
+        case "writer":
+            $writer = $datos[$i]['value'];
             break;
-        case "embedUrl":
-            $embedUrl = $datos[$i]['value'];
+        case "painter":
+            $painter = $datos[$i]['value'];
             break;
         case "datePublished":
             $datePublished = $datos[$i]['value'];
@@ -78,9 +78,9 @@ $app->post('/comics', function ($req, $res, $args)  {
     $nueva_comic = new Comic;
     $nueva_comic['name'] = $name;
     $nueva_comic['description'] = $description;
-    $nueva_comic['director'] = $director;
+    $nueva_comic['writer'] = $writer;
+    $nueva_comic['painter'] = $painter;
     $nueva_comic['datePublished'] = $datePublished;
-    $nueva_comic['embedUrl'] = $embedUrl;
 
     $nueva_comic->save();
 });
@@ -101,11 +101,11 @@ $app->put('/comics/{id}', function ($req, $res, $args) {
         case "description":
             $description = $datos[$i]['value'];
             break;
-        case "director":
-            $director = $datos[$i]['value'];
+        case "writer":
+            $writer = $datos[$i]['value'];
             break;
-        case "embedUrl":
-            $embedUrl = $datos[$i]['value'];
+        case "painter":
+            $painter = $datos[$i]['value'];
             break;
         case "datePublished":
             $datePublished = $datos[$i]['value'];
@@ -116,8 +116,8 @@ $app->put('/comics/{id}', function ($req, $res, $args) {
     $nueva_comic = Comic::find($args['id']);
     $nueva_comic['name'] = $name;
     $nueva_comic['description'] = $description;
-    $nueva_comic['director'] = $director;
-    $nueva_comic['embedUrl'] = $embedUrl;
+    $nueva_comic['writer'] = $writer;
+    $nueva_comic['painter'] = $painter;
     $nueva_comic['datePublished'] = $datePublished;
   
     $nueva_comic->save();

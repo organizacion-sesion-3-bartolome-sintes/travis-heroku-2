@@ -32,7 +32,7 @@
                 {"name" : "name", "value" : "", "prompt" : "Nombre del tebeo"},
                 {"name" : "description", "value" : "", "prompt" : "Descripción del tebeo"},
                 {"name" : "writer", "value" : "", "prompt" : "Guionista del tebeo"},
-                {"name" : "artist", "value" : "", "prompt" : "Dibujante del tebeo"},
+                {"name" : "painter", "value" : "", "prompt" : "Dibujante del tebeo"},
                 {"name" : "datePublished", "value" : "", "prompt" : "Fecha de publicación"}       
             ]
                 }
