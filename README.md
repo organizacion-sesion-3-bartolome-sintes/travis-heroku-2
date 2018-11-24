@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/organizacion-sesion-3-bartolome-sintes/travis-heroku-2.svg?branch=master)](https://travis-ci.org/organizacion-sesion-3-bartolome-sintes/travis-heroku-2)
+
 # API Collection + JSON para biblioteca multimedia
 
 API CRUD para interactuar con una base de datos de una biblioteca multimedia. Utiliza el formato [Collection + JSON](http://amundsen.com/media-types/collection/).
