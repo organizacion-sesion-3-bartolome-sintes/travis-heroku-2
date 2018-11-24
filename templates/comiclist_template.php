@@ -9,7 +9,7 @@
                 {"rel" : "profile" , "href" : "http://schema.org/ComicIssue","prompt":"Perfil"},
                 {"rel" : "collection", "href" : "{{ path_for('movies') }}","prompt":"Movies"},
                 {"rel" : "collection", "href" : "{{ path_for('books') }}","prompt":"Books"},
-                {"rel" : "collection", "href" : "{{ path_for('musicalbums') }}","prompt":"Music Albums"}
+                {"rel" : "collection", "href" : "{{ path_for('musicalbums') }}","prompt":"Music Albums"},
                 {"rel" : "collection", "href" : "{{ path_for('comics') }}","prompt":"Comics"}
             ],
       
