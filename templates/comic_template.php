@@ -24,7 +24,6 @@
                             {"name" : "datePublished", "value" : "{{ item.datePublished }}", "prompt" : "Fecha de publicación"}
                         ]
                         } 
-	  
             ],
       
             "template" : {

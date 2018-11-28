@@ -15,16 +15,13 @@
       
             "items" : [
                 {% for item in items %}
-	  
                 {
                     "href" : "{{ path_for('comics') }}/{{ item.id }}",
                         "data" : [
                             {"name" : "name", "value" : "{{ item.name }}", "prompt" : "Nombre del tebeo"}
                         ]
                         } {% if not loop.last %},{% endif %}
-	  
                 {% endfor %}
-	  
             ],
       
             "template" : {
