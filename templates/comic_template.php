@@ -15,7 +15,7 @@
       
             "items" : [
                 {
-                    "href" : "{{ path_for('comicss') }}/{{ item.id }}",
+                    "href" : "{{ path_for('comics') }}/{{ item.id }}",
                         "data" : [
                             {"name" : "name", "value" : "{{ item.name }}", "prompt" : "Nombre del tebeo"},
                             {"name" : "description", "value" : "{{ item.description }}", "prompt" : "Descripción del tebeo"},
